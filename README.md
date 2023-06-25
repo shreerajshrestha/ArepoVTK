@@ -121,7 +121,7 @@ Moving on to a cosmologically interesting use case, we will run and analyze the 
 
 ```bash
 cd arepo/examples/
-./test.py --print-all-output --no-cleanup cosmo_box_star_formation_3d
+./test.py --print-all-output --no-cleanup --number-of-tasks=2 cosmo_box_star_formation_3d
 ```
 
 this takes about 20-30 minutes to run (on 16 cores). It will produce, among other outputs, the `z=0` snapshot: `arepo/run/examples/cosmo_box_star_formation_3d/output/snap_005.hdf5`. If you don't want to wait that long, you can skip running this test and download the HDF5 snapshot file directly:

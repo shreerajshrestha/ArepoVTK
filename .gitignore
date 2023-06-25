@@ -3,3 +3,5 @@ build/*
 arepo/
 libpng/
 output/
+.idea
+*.png
